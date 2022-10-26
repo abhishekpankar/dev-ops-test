@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/",
+    "start:dev": "nodemon src/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/abhishekpankar/dev-ops-test#readme",
   "devDependencies": {
-    "jest": "^29.2.2"
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "express": "^4.18.2"
