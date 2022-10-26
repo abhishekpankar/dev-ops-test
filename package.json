@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/abhishekpankar/dev-ops-test/issues"
   },
-  "homepage": "https://github.com/abhishekpankar/dev-ops-test#readme"
+  "homepage": "https://github.com/abhishekpankar/dev-ops-test#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
