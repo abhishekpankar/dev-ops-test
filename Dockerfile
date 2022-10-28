@@ -1,5 +1,5 @@
 FROM node:16-alpine
-WORKDIR /usr/src/app
+WORKDIR /usr/app
 COPY package*.json .
 RUN npm i pnpm -g
 RUN pnpm i
